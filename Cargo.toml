@@ -1,0 +1,11 @@
+[package]
+name = "links"
+version = "0.1.0"
+edition = "2021"
+description = "find links from html and javascript 🧬"
+repository = "https://github.com/redcloudvg/links"
+documentation = "https://docs.rs/links"
+readme = "README.md"
+license-file = "LICENSE"
+
+[dependencies]
