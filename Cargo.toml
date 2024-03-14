@@ -9,8 +9,8 @@ readme = "README.md"
 license-file = "LICENSE"
 
 [dependencies]
-links_html = { path = "links_html" }
-links_js = { path = "links_js" }
+links_html = { version = "0.1.0", path = "links_html" }
+links_js = { version = "0.1.0", path = "links_js" }
 
 [workspace]
 members = ["links_html", "links_js"]
