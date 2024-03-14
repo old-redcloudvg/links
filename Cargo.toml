@@ -9,3 +9,9 @@ readme = "README.md"
 license-file = "LICENSE"
 
 [dependencies]
+links_html = { path = "links_html" }
+links_js = { path = "links_js" }
+
+[workspace]
+members = ["links_html", "links_js"]
+resolver = "2"

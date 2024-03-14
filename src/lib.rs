@@ -69,8 +69,8 @@ impl<'a> Document<'a> {
     /// ```
     pub fn urls(&self) -> Vec<&'a str> {
         match self.kind {
-            DocumentKind::HTML => todo!("get urls from html is not yet implemented"),
-            DocumentKind::JavaScript => todo!("get urls from javascript is not yet implemented")
+            DocumentKind::HTML => links_html::get_urls_from_html(self.text),
+            DocumentKind::JavaScript => links_js::get_urls_from_js(self.text)
         }
     }
 }

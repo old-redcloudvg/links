@@ -1,0 +1,9 @@
+[package]
+name = "links_js"
+version = "0.1.0"
+edition = "2021"
+description = "scrape links from javascript 🧬"
+repository = "https://github.com/redcloudvg/links"
+documentation = "https://docs.rs/links"
+readme = "../README.md"
+license-file = "../LICENSE"
